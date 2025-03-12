@@ -1,7 +1,10 @@
 # model_evaluate
-use commercial models to evaluate the local models quality for roleplay or novel
+Use commercial models to evaluate the quality of local models for roleplay or novel generation.
 
-This evaluation simulates how sillytavern communicates to text generation web UI, which means you need to deploy those two tools to evaluate the local model quality with commercial models like deep_seek r1, chatgpt or other models
+This evaluation simulates how SillyTavern communicates with Text Generation Web UI, which means you need to deploy both tools to evaluate the local models' text quality using commercial models like DeepSeek R1, ChatGPT, or other models.
+# why this tool?
+There are no datasets specifically evaluating novel text quality. You typically have to do it manually or use commercial models to evaluate the novel outputs or roleplay outputs.
 
+For the first approach, it takes too much time to finish the evaluation. The latter one can batch generate the outputs and evaluate them automatically, saving significant time and effort. :)
 
 
